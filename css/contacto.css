@@ -1,0 +1,264 @@
+
+
+/* Estilos del formulario */
+.contacto__formulario {
+    background-color: rgba(0, 0, 0, .2);
+    width: min(60rem, 100%); /* utiliza el más pequeño */
+    margin: 0px auto;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.contacto__formulario legend {
+    text-align: center;
+    color: var(--verdeOscuro);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+.contacto__campo {
+    margin-bottom: 1rem;
+}
+
+.contacto__campo label {
+    color: var(--celeste);
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+}
+
+.contacto__campo textarea {
+    height: 16rem;
+    margin-top: .1rem;
+}
+
+
+
+
+/** RESPONSIVE **/
+
+
+/* QUERIE PARA "2500" */
+@media screen and (max-width: 2500px) {
+    .main__contactos--padre {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 110rem;
+    }
+
+    .contacto__padre {
+        text-align: center;
+    }
+
+    .contacto__padre--btn {
+        text-align: center;
+    }
+
+    .contacto__padre--btn > input {
+        width: 42%;
+        height: 6vh;
+        color: var(--grisClaro);
+        font-weight: 700;
+        background-color: var(--celeste);
+        border-radius: .8rem;
+        -webkit-border-radius: .8rem;
+        -moz-border-radius: .8rem;
+        -ms-border-radius: .8rem;
+        -o-border-radius: .8rem;
+    }
+
+    .contacto__padre--btn > input:hover {
+        cursor: pointer;
+        background-color: var(--violeta);
+    }
+
+    .contacto__padre--dos {
+        display: flex;
+        justify-content: space-around;
+        margin: 2rem auto;
+        flex-wrap: wrap;
+    }
+
+    .contacto__padre--tres  {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .contacto__campo {
+        margin: 1rem;
+    }
+
+    .contacto__campo--p {
+        margin: -1rem 1rem 2rem 1rem
+    }
+}
+
+
+/* QUERIE PARA "1110" */
+@media screen and (max-width: 1110px) {
+    .main__contactos--padre {
+        width: 95rem;
+    }
+}
+
+
+
+/* QUERIE PARA "974" */
+@media screen and (max-width: 974px) {
+    .novedades__article--padre {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        height: 40rem;
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+
+/* QUERIE PARA "960" */
+@media screen and (max-width: 960px) {
+    .main__contactos--padre {
+        width: 98%;
+    }
+
+    /* footer */
+    .footer__padre {
+        flex-wrap: wrap;
+        padding: 1rem;
+    }
+}
+
+
+/* QUERIE PARA "850" */
+@media screen and (max-width: 850px) {
+    .main__contactos--padre {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        align-items: center;
+        justify-items: center
+    }
+
+    .main__contactos--hijos:nth-child(1) {
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+    }
+
+    .main__contactos--hijos:nth-child(2) {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    .main__contactos--hijos:nth-child(3) {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+}
+
+
+
+/* QUERIE PARA "796" */
+@media screen and (max-width: 796px) {
+    .footer__padre {
+        justify-content: center;
+    }
+}
+
+
+/* QUERIE PARA "642" */
+@media screen and (max-width: 642px) {
+    .footer__padre {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr); 
+        align-items: center;
+        justify-items: center;
+        margin-left: 1rem;
+    }
+
+    .footer__hijos:nth-child(2) {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }   
+    
+    .footer__hijos:nth-child(1) {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }    
+}
+
+
+/* QUERIE PARA "570" */
+@media screen and (max-width: 570px) {
+    .contacto__padre--btn > input {
+        width: 50%;  
+    }
+}
+
+
+/* QUERIE PARA "502" */
+@media screen and (max-width: 502px) {
+    .contacto__padre--dos {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: flex-start;
+    }
+
+    .contacto__padre--tres {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+}
+
+/* QUERIE PARA "480" */
+@media screen and (max-width: 480px) {
+    .main__contactos--padre {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        height: 65rem;
+    }
+
+    .main__contactos--hijos:nth-child(1) {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .main__contactos--hijos:nth-child(2) {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    .main__contactos--hijos:nth-child(3) {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+}
+
+
+
+/* Iconos */
+.box-skills {
+    margin: 3px 60px 0 0;
+}
+
+.box-skills > h4 {
+    font-size: 1.9rem;
+    background-color: #f2f2f2;
+    width: 350px;
+    border-radius: 6px;
+    padding: 10px 0 10px 15px;
+    margin-bottom: 15px;
+}
+
+.box-skills h4 i {
+    color: #105032;
+    font-size: 20px;
+}
+

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+</head>
+
+<body>
+    <header> <!-- Inicio del header -->
+        <div class="nav contenedor nav_padre">
+            <div class="nav__img nav_hijo"> <img src="../images/logo1.png" alt="imagen del logo"> </div>
+
+            <div class="nav__navegacion nav_hijo">
+                <nav>
+                    <ul>
+                        <li class="nav__link"> <a href="../index.html"> Home </a> </li>
+                        <li class="nav__link"> <a href="./equipos.html"> Equipos </a> </li>
+                        <li class="nav__link"> <a href="./galeria.html"> Galería </a> </li>
+                        <li class="nav__link"> <a href="./novedades.html"> Novedades </a> </li>
+                        <li class="nav__link"> <a href="./contacto.html"> Contacto </a> </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header> <!-- Fin del header -->
+    
+    <main class="contenedor contacto"> <!-- Inicio del Main -->
+        <div class="nombrePagina">
+            <p>Contacto</p>
+        </div>
+
+        <br>
+    <form class="contenedor contacto__formulario"> <!-- Inicio Formulario -->
+        <fieldset>
+            <legend>CONTÁCTANOS LLENANDO TODOS LOS CAMPOS</legend>
+            
+                <div class="contacto__contenedorCampos contacto__padre"> <!-- Inicio Contenedor Campos -->
+                    <div class="contacto__padre--dos">
+                        <div class="contacto__campo">
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name" placeholder="Ingrese su nombre">
+                        </div>
+                        
+                        <div class="contacto__campo">
+                            <label for="email">Correo:</label>
+                            <input type="email" id="email" name="email" placeholder="Ingrese su correo" required>
+                        </div>
+                    </div>
+                    
+                    <div class="contacto__padre--dos">
+                        <div class="contacto__campo">
+                            <label for="telephone">Teléfono:</label>
+                            <input type="tel" id="telephone" name="telephone" placeholder="15xxxxxxx">
+                        </div>
+                        
+                        <div class="contacto__campo">
+                            <label for="pais">País:</label>
+                            <select name="pais" id="pais">
+                                <option value="" disabled selected="true">--- seleccione el país ---</option>
+                                <option value="arg">Argentina</option>
+                                <option value="bra">Brasil</option>
+                                <option value="col">Colombia</option>
+                                <option value="per">Perú</option>
+                                <option value="chi">chile</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="contacto__campo">
+                        <label>consulta sobre:</label>
+                        <div class="contacto__padre--dos">
+                            <p class="contacto__campo--p"> <input type="checkbox" id="cbox1" value="check1"> Precios </p>
+                            <p class="contacto__campo--p"> <input type="checkbox" id="cbox2" value="check2"> Productos </p>
+                            <p class="contacto__campo--p"> <input type="checkbox" id="cbox3" value="check3"> Entregas </p>
+                            <p class="contacto__campo--p"> <input type="checkbox" id="cbox4" value="check4"> Combos </p>
+                            <p class="contacto__campo--p"> <input type="checkbox" id="cbox5" value="check5"> Otros </p>
+                        </div>
+                    </div>
+
+                    <div class="contacto__campo">
+                        <label>desea recibir la respuesta por:</label>
+                        <div class="contacto__padre--tres">
+                            <p> <input type="radio" name="res" value="co"> Correo </p>
+                            <p> <input type="radio" name="res" value="ws"> Whatsapp </p>
+                        </div>
+                    </div>
+                    
+                    <div class="contacto__campo">
+                        <label for="descripcion"> Nota: </label> <br>
+                        <textarea name="descripcion" id="descripcion" cols="25" rows="8"></textarea>
+                    </div>
+                    
+                    <br>
+                </div>  <!-- Fin Contenedor Campos -->
+
+                <div class="contacto__padre--btn">
+                    <input class="contacto__btn" type="submit" value="Enviar">
+                </div>
+        </fieldset>
+    </form> <!-- Fin Formulario -->
+
+    <hr>
+        <div class="main__contactos main__contactos--padre"> <!-- Inicio seccion contacto -->
+            <div class="main__contactos--hijos"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.5965743765933!2d-64.19323064981869!3d-31.397685581319134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329861623d4655%3A0xa1bd6fdb7f7cdeea!2sJuan%20del%20Campillo%201000%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1638672672742!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> </div>
+
+            <div class="main__contactos--hijos">
+                <h3> <u>Enlaces de interes</u> </h3>
+                <p> <a href="https://queportatilcomprar.net/mejor-procesador/">Procesadores recomendados</a> </p>
+                <p> <a href="https://mejoresproductos.net/mejores-antenas-wifi/">Mejor conectividad</a> </p>
+                <p> <a href="https://es.digitaltrends.com/computadoras/mejores-monitores-para-gaming/">Pantallas recomendadas</a> </p>
+            </div>
+            
+            <div class="main__contactos--hijos">
+                <h3> <u>Contactanos</u> </h3>
+                <p>Juan del campillo 1000</p>
+                <p>davidx6x@hotmail.com</p>
+                <p>+54 351 155555555</p>
+            </div>
+        </div> <!-- Fin seccion contacto -->
+        <hr>
+    </main> <!-- Fin del Main -->
+
+    <footer class="footer contenedor"> <!-- Inicio Footer -->
+        <div class="footer__padre">
+            <p class="footer__hijos">2021 &copy; Copyright: Derechos Reservados</p>
+
+            <div class="footer__hijos">
+                <p> <a href="www.facebook.com"> Facebook </a> </p>
+                <p> <a href="www.instagram.com"> Instagram </a> </p>
+                <p> <a href="www.paypal.com"> Paypal </a> </p>
+                <p> <a href="www.whatsapp.com"> Whatsapp </a> </p>
+            </div>
+        </div>
+    </footer> <!-- Fin footer -->
+</body>
+</html>

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../images/favicon.jpg" type="image/x-icon">
+    <title>Equipos</title>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <!-- Fuente de letras -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- Fuente Contacto y Footer -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
+    <!-- Archivos css de Bootstrap 4 -->
+    <link type="text/css" rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- Estilos css Propios -->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/equipos.css">
+</head>
+
+<body>
+    <!-- NAVEGACIÓN -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+        <div class="container">      
+            <a href="../index.html" class="navbar-brand">
+                <div class="img-fluid nav-img"> <img src="../images/logo1.png" alt="imagen del logo"> </div>
+            </a>
+
+            <a href="../index.html" class="navbar-brand">
+                <div class="img-fluid nav-img"> <img src="../images/logoTuf.png" alt="logo tuf"> </div>
+            </a>
+
+            <a href="../index.html" class="navbar-brand">
+                <div class="img-fluid nav-img"> <img src="../images/logoAsus.png" alt="logo asus"> </div>
+            </a>
+            
+            <button type="button" class="navbar-toggler" data-toggle="collapse"
+                data-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false"
+                aria-label="Desplegar menú de navegación">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu-principal">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="../index.html" class="nav-link">Inicio</a></li>
+                    <li class="nav-item active"><a href="equipos.html" class="nav-link">Equipos</a></li>
+                    <li class="nav-item"><a href="galeria.html" class="nav-link">Galería</a></li>
+                    <li class="nav-item"><a href="novedades.html" class="nav-link">Novedades</a></li>
+                    <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav> <!-- .Fin navegación -->
+
+
+    <!-- MAIN -->
+    <main class="contenedor equipos"> 
+        <div class="nombrePagina">
+            <p>Equipos</p>
+        </div>
+
+        <section class="contenedor equipos__section  equipos__section--padre"> <!-- Inicio seccion productos -->
+            
+            <article class="equipos__article"> <!-- Inicio articulo 1 -->
+                <div> <img src="../images/equipo1.jpg" alt="imagen de pc 1"> </div>
+
+                <div>
+                    <p class="descuento">hasta 12 cuotas sin interes</p>
+                    <h2>Pc AMD Gamer ZEn!</h2>
+                    <p class="equipos__article--descr">Reaper Ryzen 3 3200G</p>
+                    <p class="equipos__article--descr">SSD 120, SO windows 10</p>
+                    <p class="equipos__article--precio"> <span>$55.000</span> $52.999</p>
+                    <button class="equipos__article--btn" type="submit">Comprar</button>
+                </div>
+            </article> <!-- Fin articulo 1 -->
+
+
+            <article class="equipos__article"> <!-- Inicio articulo 2 -->
+                <div> <img src="../images/equipo2.jpg" alt="imagen de pc 2"> </div>
+
+                <div>
+                    <p class="descuento">10% de descuento!!!</p>
+                    <h2>Pc Intel Core i3</h2>
+                    <p class="equipos__article--descr">8Gb de Ram, 1Tb HHD</p>
+                    <p class="equipos__article--descr">SO windows 10</p>
+                    <p class="equipos__article--precio"> <span>$50.000</span> $45.000</p>
+                    <button class="equipos__article--btn" type="submit">Comprar</button>
+                </div>
+            </article> <!-- Fin articulo 2 -->
+
+
+            <article class="equipos__article"> <!-- Inicio articulo 3 -->
+                <div> <img src="../images/equipo3.jpg" alt="imagen de pc 3"> </div>
+
+                <div>
+                    <p class="descuento">ahora 18!! -  sin interes!</p>
+                    <h2>Pc AMD Ryzen 3!</h2>
+                    <p class="equipos__article--descr">3200G - 8Gb( 2 x 4Gb)</p>
+                    <p class="equipos__article--descr">SSD 240Gb, SO windows 10</p>
+                    <p class="equipos__article--precio"> <span>$65.000</span> $62.999</p>
+                    <button class="equipos__article--btn" type="submit">Comprar</button>
+                </div>
+            </article> <!-- Fin articulo 3 -->
+
+
+            <article class="equipos__article"> <!-- Inicio articulo 4 -->
+                <div> <img src="../images/equipo4.jpg" alt="imagen de pc 4"> </div>
+
+                <div>
+                    <p class="descuento">OFERTA!!!</p>
+                    <h2>Pc Intel Celeron!</h2>
+                    <p class="equipos__article--descr">Dual Core G4930</p>
+                    <p class="equipos__article--descr">HDD 1Tb, SO windows 10</p>
+                    <p class="equipos__article--precio"> <span>$35.000</span> $30.999</p>
+                    <button class="equipos__article--btn" type="submit">Comprar</button>
+                </div>
+            </article> <!-- Fin articulo 4 -->
+
+
+            <article class="equipos__article"> <!-- Inicio articulo 5 -->
+                <div> <img src="../images/equipo5.jpg" alt="imagen de pc 5"> </div>
+
+                <div>
+                    <p class="descuento">hasta 12 cuotas sin interes</p>
+                    <h2>Pc Intel Pentium!</h2>
+                    <p class="equipos__article--descr">G5420 - 8Gb DDR4</p>
+                    <p class="equipos__article--descr">Incluye teclado y mouse!</p>
+                    <p class="equipos__article--precio"> <span>$45.000</span> $42.999</p>
+                    <button class="equipos__article--btn" type="submit">Comprar</button>
+                </div>
+            </article> <!-- Fin articulo 5 -->
+
+
+            <article class="equipos__article"> <!-- Inicio articulo 6 -->
+                <div> <img src="../images/equipo6.jpg" alt="imagen de pc 6"> </div>
+
+                <div>
+                    <p class="descuento">ahora 18!! -  sin interes!</p>
+                    <h2>Pc Gamer Ryzen 5!</h2>
+                    <p class="equipos__article--descr">GPU Ryzen 5 5600G</p>
+                    <p class="equipos__article--descr">SSD 500Gb, incluye RGB!</p>
+                    <p class="equipos__article--precio"> <span>$75.000</span> $72.999</p>
+                    <button class="equipos__article--btn" type="submit">Comprar</button>
+                </div>
+            </article> <!-- Fin articulo 6 -->
+
+
+            <article class="equipos__article"> <!-- Inicio articulo 7 -->
+                <div> <img src="../images/equipo7.jpg" alt="imagen de pc 7"> </div>
+
+                <div>
+                    <p class="descuento">10% de descuento!!!</p>
+                    <h2>Pc AMD Ryzen 7!</h2>
+                    <p class="equipos__article--descr">Ryzen 7 5800X - SSD 500Gb</p>
+                    <p class="equipos__article--descr">GeForce GTX 1650 MSI</p>
+                    <p class="equipos__article--precio"> <span>$155.000</span> $150.000</p>
+                    <button class="equipos__article--btn" type="submit">Comprar</button>
+                </div>
+            </article> <!-- Fin articulo 7 -->
+
+
+            <article class="equipos__article"> <!-- Inicio articulo 8 -->
+                <div> <img src="../images/equipo8.jpg" alt="imagen de pc 8"> </div>
+
+                <div>
+                    <p class="descuento">hasta 12 cuotas sin interes</p>
+                    <h2>Pc AMD Ryzen 7!</h2>
+                    <p class="equipos__article--descr">GPU Ryzen 7 5700G</p>
+                    <p class="equipos__article--descr">SSD M.2 500, SO windows 10</p>
+                    <p class="equipos__article--precio"> <span>$145.000</span> $142.999</p>
+                    <button class="equipos__article--btn" type="submit">Comprar</button>
+                </div>
+            </article> <!-- Fin articulo 8 -->
+
+
+            <article class="equipos__article"> <!-- Inicio articulo 9 -->
+                <div> <img src="../images/equipo9.jpg" alt="imagen de pc 9"> </div>
+
+                <div>
+                    <p class="descuento">hasta 12 cuotas sin interes</p>
+                    <h2>Pc Intel i5 - 10 Gen!</h2>
+                    <p class="equipos__article--descr">Intel Core i5 10400</p>
+                    <p class="equipos__article--descr">SSD 240Gb, 16Gb ram</p>
+                    <p class="equipos__article--precio"> <span>$105.000</span> $102.999</p>
+                    <button class="equipos__article--btn" type="submit">Comprar</button>
+                </div>
+            </article> <!-- Fin articulo 9 -->
+
+
+            <article class="equipos__article"> <!-- Inicio articulo 10 -->
+                <div> <img src="../images/equipo10.jpg" alt="imagen de pc 10"> </div>
+
+                <div>
+                    <p class="descuento">ahora 18!! -  sin interes!</p>
+                    <h2>Pc Profesional Ryzen 9</h2>
+                    <p class="equipos__article--descr">Ryzen 9 5900X - 32Gb ram</p>
+                    <p class="equipos__article--descr">SSD M.2 1Tb, Rtx3090</p>
+                    <p class="equipos__article--precio"> <span>$455.000</span> $452.999</p>
+                    <button class="equipos__article--btn" type="submit">Comprar</button>
+                </div>
+            </article> <!-- Fin articulo 10 -->
+
+
+            <article class="equipos__article"> <!-- Inicio articulo 11 -->
+                <div> <img src="../images/equipo11.jpg" alt="imagen de pc 11"> </div>
+
+                <div>
+                    <p class="descuento">ahora 18!! -  sin interes!</p>
+                    <h2>Pc Profesional Intel i9</h2>
+                    <p class="equipos__article--descr">Intel i9 11900K - 11ava Gen</p>
+                    <p class="equipos__article--descr">SSD M.2 1Tb, 64Gb Ram</p>
+                    <p class="equipos__article--precio"> <span>$655.000</span> $652.999</p>
+                    <button class="equipos__article--btn" type="submit">Comprar</button>
+                </div>
+            </article> <!-- Fin articulo 11 -->
+
+
+            <article class="equipos__article"> <!-- Inicio articulo 12 -->
+                <div> <img src="../images/equipo12.jpg" alt="imagen de pc 12"> </div>
+
+                <div>
+                    <p class="descuento">hasta 18!! -  sin interes!</p>
+                    <h2>Pc Armada a tu medida!</h2>
+                    <p class="equipos__article--descr">Eliges gabinete, cpu/apu, ram</p>
+                    <p class="equipos__article--descr">Disco R/S, SO</p>
+                    <p class="equipos__article--precio"> <span>$00.00</span> $00.00</p>
+                    <button class="equipos__article--btn" type="submit">Comprar</button>
+                </div>
+            </article> <!-- Fin articulo 12 -->
+
+        </section> <!-- Fin seccion productos -->
+
+        <hr>
+
+        <!-- CONTACTO -->
+        <div class="container-fluid"> 
+            <div class="row d-flex justify-content-between align-items-center bg-contacto">
+                <div class="col-12 col-lg-4 text-center mt-5"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.5965743765933!2d-64.19323064981869!3d-31.397685581319134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329861623d4655%3A0xa1bd6fdb7f7cdeea!2sJuan%20del%20Campillo%201000%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1638672672742!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> </div>
+                
+                <div class="col-12 col-lg-4 text-center mt-5">
+                    <h3 class="titulo-contacto"> Enlaces de interes </h3>
+                    
+                    <div class="text-contacto">
+                        <p> <a href="https://queportatilcomprar.net/mejor-procesador/">Procesadores recomendados</a> </p>
+                        <p> <a href="https://mejoresproductos.net/mejores-antenas-wifi/">Mejor conectividad</a> </p>
+                        <p> <a href="https://es.digitaltrends.com/computadoras/mejores-monitores-para-gaming/">Pantallas recomendadas</a> </p>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-lg-4 text-center mt-5">
+                    <h3 class="titulo-contacto"> Contáctanos </h3>
+
+                    <ul class="text-contacto2">
+                        <li> <i class="fas fa-home"></i> <span class="letter"> Juan del Campillo 1000 </span> </li>
+                        <li> <i class="fas fa-envelope"></i> <span class="letter"> davidx6x@hotmail.com </span> </li>
+                        <li> <i class="fas fa-phone"></i> <span class="letter"> +54 351 155155005 </span> </li>
+                        <li> <i class="fas fa-headset"></i> <span class="letter"> +54 351 8828398 </span> </li>
+                    </ul>
+                </div>
+            </div>
+        </div> <!-- Fin seccion contacto -->
+        <hr>
+    </main> <!-- Fin Main -->
+
+    <hr>
+
+    <!-- SECCION DE PAGINACIÓN -->
+    <div class="container">
+    <div class="row">
+        <div class="col-12 d-flex justify-content-center mt-3">
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+            <li class="page-item">
+                <a class="page-link" href="../index.html" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+                <span class="sr-only">Previous</span>
+                </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="../index.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="equipos.html">2</a></li>
+            <li class="page-item"><a class="page-link" href="galeria.html">3</a></li>
+            <li class="page-item"><a class="page-link" href="novedades.html">4</a></li>
+            <li class="page-item"><a class="page-link" href="contacto.html">5</a></li>
+            <li class="page-item">
+                <a class="page-link" href="galeria.html" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+                <span class="sr-only">Next</span>
+                </a>
+            </li>
+            </ul>
+        </nav>
+        </div>
+    </div>
+    </div>
+
+<hr>
+
+    <!-- FOOTER -->
+    <footer class="container-fluid bg-dark"> 
+        <div class="container">
+            <div class="row">
+                <ul class="col-12 d-flex justify-content-between mt-5 redes-container">
+                    <li><a href="https://facebook.com/" target="_blank" class="facebook"> <i class="fab fa-facebook-f"></i> </a></li>
+    
+                    <li><a href="https://instagram.com" target="_blank" class="instagram"> <i class="fab fa-instagram"></i> </a></li>
+    
+                    <li><a href="https://twitter.com" target="_blank" class="twitter"> <i class="fab fa-twitter"></i> </a></li>
+    
+                    <li><a href="https://pinterest.com" target="_blank" class="pinterest"> <i class="fab fa-pinterest-p"></i> </a></li>
+    
+                    <li><a href="https://linkedin.com" target="_blank" class="linkedin" target="_blank"> <i class="fab fa-linkedin-in"></i> </a></li>
+                </ul>
+                
+            
+                <div class="col-12 text-center text-white mt-4 mb-3">
+                    <p class="text-footer">2021 &copy; Copyright: Derechos Reservados</p>
+                </div>
+            </div>
+        </div>
+    </footer> <!-- Fin footer -->
+
+
+    <!-- Link de bootstrap y js -->
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+
+    <!-- Link de font awesome -->
+    <script src="https://kit.fontawesome.com/c15b744a04.js" crossorigin="anonymous"></script>
+</body>
+</html>
