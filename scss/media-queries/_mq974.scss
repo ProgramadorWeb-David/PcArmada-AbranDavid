@@ -1,0 +1,13 @@
+
+
+/* QUERIE PARA "974" */
+@media screen and (max-width: 974px) {
+    .novedades__article--padre {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        height: 40rem;
+        align-items: center;
+        justify-items: center;
+    }
+}

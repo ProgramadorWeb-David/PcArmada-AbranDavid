@@ -4,36 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../images/favicon.jpg" type="image/x-icon">
     <title>Novedades</title>
+    <!-- Normalize -->
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- Fuente Contacto y Footer -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
+    <!-- Archivos css de Bootstrap 4 -->
+    <link type="text/css" rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="stylesheet" href="../css/novedades.css">
 </head>
 
 <body>
-    <header> <!-- Inicio del header -->
-        <div class="nav contenedor nav_padre">
-            <div class="nav__img nav_hijo"> <img src="../images/logo1.png" alt="imagen del logo"> </div>
+    <!-- NAVEGACIÓN -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+        <div class="container">      
+            <a href="index.html" class="navbar-brand">
+                <div class="img-fluid nav-img"> <img src="../images/logo1.png" alt="imagen del logo"> </div>
+            </a>
 
-            <div class="nav__navegacion nav_hijo">
-                <nav>
-                    <ul>
-                        <li class="nav__link"> <a href="../index.html"> Home </a> </li>
-                        <li class="nav__link"> <a href="./equipos.html"> Equipos </a> </li>
-                        <li class="nav__link"> <a href="./galeria.html"> Galería </a> </li>
-                        <li class="nav__link"> <a href="./novedades.html"> Novedades </a> </li>
-                        <li class="nav__link"> <a href="./contacto.html"> Contacto </a> </li>
-                    </ul>
-                </nav>
+            <a href="index.html" class="navbar-brand">
+                <div class="img-fluid nav-img"> <img src="../images/logoTuf.png" alt="logo tuf"> </div>
+            </a>
+
+            <a href="index.html" class="navbar-brand">
+                <div class="img-fluid nav-img"> <img src="../images/logoAsus.png" alt="logo asus"> </div>
+            </a>
+            
+            <button type="button" class="navbar-toggler" data-toggle="collapse"
+                data-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false"
+                aria-label="Desplegar menú de navegación">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu-principal">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="../index.html" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="equipos.html" class="nav-link">Equipos</a></li>
+                    <li class="nav-item"><a href="galeria.html" class="nav-link">Galería</a></li>
+                    <li class="nav-item"><a href="novedades.html" class="nav-link active">Novedades</a></li>
+                    <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
+                </ul>
             </div>
         </div>
-    </header> <!-- Fin del header -->
+    </nav> <!-- .Fin navegación -->
     
 
-    <main class="contenedor novedades"> <!-- Inicio Main -->
+    <main class="contenedor novedades mt-5"> <!-- Inicio Main -->
         <div class="nombrePagina">
             <p>Novedades</p>
         </div>
@@ -118,37 +142,105 @@
         </section> <!-- Fin del Section -->
         
         <hr>
-        <div class="main__contactos main__contactos--padre"> <!-- Inicio seccion contacto -->
-            <div class="main__contactos--hijos"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.5965743765933!2d-64.19323064981869!3d-31.397685581319134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329861623d4655%3A0xa1bd6fdb7f7cdeea!2sJuan%20del%20Campillo%201000%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1638672672742!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> </div>
 
-            <div class="main__contactos--hijos">
-                <h3> <u>Enlaces de interes</u> </h3>
-                <p> <a href="https://queportatilcomprar.net/mejor-procesador/">Procesadores recomendados</a> </p>
-                <p> <a href="https://mejoresproductos.net/mejores-antenas-wifi/">Mejor conectividad</a> </p>
-                <p> <a href="https://es.digitaltrends.com/computadoras/mejores-monitores-para-gaming/">Pantallas recomendadas</a> </p>
-            </div>
-            
-            <div class="main__contactos--hijos">
-                <h3> <u>Contactanos</u> </h3>
-                <p>Juan del campillo 1000</p>
-                <p>davidx6x@hotmail.com</p>
-                <p>+54 351 155555555</p>
+        <!-- CONTACTO -->
+        <div class="container-fluid"> 
+            <div class="row d-flex justify-content-between align-items-center bg-contacto">
+                <div class="col-12 col-lg-4 text-center mt-5"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.5965743765933!2d-64.19323064981869!3d-31.397685581319134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329861623d4655%3A0xa1bd6fdb7f7cdeea!2sJuan%20del%20Campillo%201000%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1638672672742!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> </div>
+                
+                <div class="col-12 col-lg-4 text-center mt-5">
+                    <h3 class="titulo-contacto"> Enlaces de interes </h3>
+                    
+                    <div class="text-contacto">
+                        <p> <a href="https://queportatilcomprar.net/mejor-procesador/">Procesadores recomendados</a> </p>
+                        <p> <a href="https://mejoresproductos.net/mejores-antenas-wifi/">Mejor conectividad</a> </p>
+                        <p> <a href="https://es.digitaltrends.com/computadoras/mejores-monitores-para-gaming/">Pantallas recomendadas</a> </p>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-lg-4 text-center mt-5">
+                    <h3 class="titulo-contacto"> Contáctanos </h3>
+
+                    <ul class="text-contacto2">
+                        <li> <i class="fas fa-home"></i> <span class="letter"> Juan del Campillo 1000 </span> </li>
+                        <li> <i class="fas fa-envelope"></i> <span class="letter"> davidx6x@hotmail.com </span> </li>
+                        <li> <i class="fas fa-phone"></i> <span class="letter"> +54 351 155155005 </span> </li>
+                        <li> <i class="fas fa-headset"></i> <span class="letter"> +54 351 8828398 </span> </li>
+                    </ul>
+                </div>
             </div>
         </div> <!-- Fin seccion contacto -->
         <hr>
     </main> <!-- Fin Main -->
 
-    <footer class="footer contenedor"> <!-- Inicio Footer -->
-        <div class="footer__padre">
-            <p class="footer__hijos">2021 &copy; Copyright: Derechos Reservados</p>
 
-            <div class="footer__hijos">
-                <p> <a href="www.facebook.com"> Facebook </a> </p>
-                <p> <a href="www.instagram.com"> Instagram </a> </p>
-                <p> <a href="www.paypal.com"> Paypal </a> </p>
-                <p> <a href="www.whatsapp.com"> Whatsapp </a> </p>
+    <hr>
+
+    <!-- SECCION DE PAGINACIÓN -->
+    <div class="container">
+    <div class="row">
+        <div class="col-12 d-flex justify-content-center mt-3">
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+            <li class="page-item">
+                <a class="page-link" href="galeria.html" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+                <span class="sr-only">Previous</span>
+                </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="../index.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="equipos.html">2</a></li>
+            <li class="page-item"><a class="page-link" href="galeria.html">3</a></li>
+            <li class="page-item"><a class="page-link" href="novedades.html">4</a></li>
+            <li class="page-item"><a class="page-link" href="contacto.html">5</a></li>
+            <li class="page-item">
+                <a class="page-link" href="contacto.html" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+                <span class="sr-only">Next</span>
+                </a>
+            </li>
+            </ul>
+        </nav>
+        </div>
+    </div>
+    </div>
+
+    <hr>
+
+
+    <!-- FOOTER -->
+    <footer class="container-fluid bg-dark"> 
+        <div class="container">
+            <div class="row">
+                <ul class="col-12 d-flex justify-content-between mt-5 redes-container">
+                    <li><a href="https://facebook.com/" target="_blank" class="facebook"> <i class="fab fa-facebook-f"></i> </a></li>
+    
+                    <li><a href="https://instagram.com" target="_blank" class="instagram"> <i class="fab fa-instagram"></i> </a></li>
+    
+                    <li><a href="https://twitter.com" target="_blank" class="twitter"> <i class="fab fa-twitter"></i> </a></li>
+    
+                    <li><a href="https://pinterest.com" target="_blank" class="pinterest"> <i class="fab fa-pinterest-p"></i> </a></li>
+    
+                    <li><a href="https://linkedin.com" target="_blank" class="linkedin" target="_blank"> <i class="fab fa-linkedin-in"></i> </a></li>
+                </ul>
+                
+            
+                <div class="col-12 text-center text-white mt-4 mb-3">
+                    <p class="text-footer">2021 &copy; Copyright: Derechos Reservados</p>
+                </div>
             </div>
         </div>
     </footer> <!-- Fin footer -->
+
+
+
+    <!-- Link de bootstrap y js -->
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+
+    <!-- Link de font awesome -->
+    <script src="https://kit.fontawesome.com/c15b744a04.js" crossorigin="anonymous"></script>
 </body>
 </html>
