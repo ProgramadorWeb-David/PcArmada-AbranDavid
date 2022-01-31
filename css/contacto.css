@@ -1,6 +1,10 @@
 
 
 /* Estilos del formulario */
+.contacto {
+    margin-top: 12rem;
+}
+
 .contacto__formulario {
     background-color: rgba(0, 0, 0, .2);
     width: min(60rem, 100%); /* utiliza el más pequeño */

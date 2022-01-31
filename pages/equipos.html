@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- Meta Tag Requeridos -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <meta name="keywords" content="pc, equipos, promociones, precios, descuentos, contacto, ubicacion">
+    <meta name="description" content="equipos armados con descuentos o promociones listos para usar">
+    <meta name="author" content="David Leonel Abran" />
+    <meta name="copyright" content="David Leonel S.A" />
+
     <!-- Favicon -->
     <link rel="shortcut icon" href="../images/favicon.jpg" type="image/x-icon">
     <title>Equipos</title>
+
     <!-- Normalize -->
     <link rel="stylesheet" href="../css/normalize.css">
     <!-- Fuente de letras -->
@@ -25,54 +34,60 @@
 </head>
 
 <body>
-    <!-- NAVEGACIÓN -->
-    <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
-        <div class="container">      
-            <a href="../index.html" class="navbar-brand">
-                <div class="img-fluid nav-img"> <img src="../images/logo1.png" alt="imagen del logo"> </div>
-            </a>
-
-            <a href="../index.html" class="navbar-brand">
-                <div class="img-fluid nav-img"> <img src="../images/logoTuf.png" alt="logo tuf"> </div>
-            </a>
-
-            <a href="../index.html" class="navbar-brand">
-                <div class="img-fluid nav-img"> <img src="../images/logoAsus.png" alt="logo asus"> </div>
-            </a>
-            
-            <button type="button" class="navbar-toggler" data-toggle="collapse"
-                data-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false"
-                aria-label="Desplegar menú de navegación">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="menu-principal">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href="../index.html" class="nav-link">Inicio</a></li>
-                    <li class="nav-item active"><a href="equipos.html" class="nav-link">Equipos</a></li>
-                    <li class="nav-item"><a href="galeria.html" class="nav-link">Galería</a></li>
-                    <li class="nav-item"><a href="novedades.html" class="nav-link">Novedades</a></li>
-                    <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
-                </ul>
+    <!-- HEADER -->
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+                    <div class="container">      
+                        <a href="../index.html" class="navbar-brand">
+                            <div class="img-fluid nav-img"> <img src="../images/logo1.png" alt="imagen del logo"> </div>
+                        </a>
+                
+                        <a href="../index.html" class="navbar-brand">
+                            <div class="img-fluid nav-img"> <img src="../images/logoTuf.png" alt="logo tuf"> </div>
+                        </a>
+                
+                        <a href="../index.html" class="navbar-brand">
+                            <div class="img-fluid nav-img"> <img src="../images/logoAsus.png" alt="logo asus"> </div>
+                        </a>
+                        
+                        <button type="button" class="navbar-toggler" data-toggle="collapse"
+                            data-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false"
+                            aria-label="Desplegar menú de navegación">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                
+                        <div class="collapse navbar-collapse" id="menu-principal">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item"><a href="../index.html" class="nav-link">Inicio</a></li>
+                                <li class="nav-item active"><a href="equipos.html" class="nav-link">Equipos</a></li>
+                                <li class="nav-item"><a href="galeria.html" class="nav-link">Galería</a></li>
+                                <li class="nav-item"><a href="novedades.html" class="nav-link">Novedades</a></li>
+                                <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav> <!-- .Fin navegación -->
             </div>
         </div>
-    </nav> <!-- .Fin navegación -->
+    </header>
 
 
     <!-- MAIN -->
     <main class="contenedor equipos"> 
         <div class="nombrePagina">
-            <p>Equipos</p>
+            <h1>Equipos</h1>
         </div>
 
         <section class="contenedor equipos__section  equipos__section--padre"> <!-- Inicio seccion productos -->
             
-            <article class="equipos__article"> <!-- Inicio articulo 1 -->
+            <article class="equipos__article" title="pc amd gamer zen - 52.999"> <!-- Inicio articulo 1 -->
                 <div> <img src="../images/equipo1.jpg" alt="imagen de pc 1"> </div>
 
-                <div>
+                <div class="descripcion">
                     <p class="descuento">hasta 12 cuotas sin interes</p>
-                    <h2>Pc AMD Gamer ZEn!</h2>
+                    <h2>Pc <span class="amd">AMD</span> Gamer ZEn!</h2>
                     <p class="equipos__article--descr">Reaper Ryzen 3 3200G</p>
                     <p class="equipos__article--descr">SSD 120, SO windows 10</p>
                     <p class="equipos__article--precio"> <span>$55.000</span> $52.999</p>
@@ -81,12 +96,12 @@
             </article> <!-- Fin articulo 1 -->
 
 
-            <article class="equipos__article"> <!-- Inicio articulo 2 -->
+            <article class="equipos__article" title="pc intel core i3 - 45.000"> <!-- Inicio articulo 2 -->
                 <div> <img src="../images/equipo2.jpg" alt="imagen de pc 2"> </div>
 
-                <div>
+                <div class="descripcion">
                     <p class="descuento">10% de descuento!!!</p>
-                    <h2>Pc Intel Core i3</h2>
+                    <h2>Pc <span class="intel">Intel</span> Core i3</h2>
                     <p class="equipos__article--descr">8Gb de Ram, 1Tb HHD</p>
                     <p class="equipos__article--descr">SO windows 10</p>
                     <p class="equipos__article--precio"> <span>$50.000</span> $45.000</p>
@@ -95,12 +110,12 @@
             </article> <!-- Fin articulo 2 -->
 
 
-            <article class="equipos__article"> <!-- Inicio articulo 3 -->
+            <article class="equipos__article" title="pc amd ryzen 3 - 62.999"> <!-- Inicio articulo 3 -->
                 <div> <img src="../images/equipo3.jpg" alt="imagen de pc 3"> </div>
 
-                <div>
+                <div class="descripcion">
                     <p class="descuento">ahora 18!! -  sin interes!</p>
-                    <h2>Pc AMD Ryzen 3!</h2>
+                    <h2>Pc <span class="amd">AMD</span> Ryzen 3!</h2>
                     <p class="equipos__article--descr">3200G - 8Gb( 2 x 4Gb)</p>
                     <p class="equipos__article--descr">SSD 240Gb, SO windows 10</p>
                     <p class="equipos__article--precio"> <span>$65.000</span> $62.999</p>
@@ -109,12 +124,12 @@
             </article> <!-- Fin articulo 3 -->
 
 
-            <article class="equipos__article"> <!-- Inicio articulo 4 -->
+            <article class="equipos__article" title="pc intel celeron oferta - 30.999"> <!-- Inicio articulo 4 -->
                 <div> <img src="../images/equipo4.jpg" alt="imagen de pc 4"> </div>
 
-                <div>
+                <div class="descripcion">
                     <p class="descuento">OFERTA!!!</p>
-                    <h2>Pc Intel Celeron!</h2>
+                    <h2>Pc <span class="intel">Intel</span> Celeron!</h2>
                     <p class="equipos__article--descr">Dual Core G4930</p>
                     <p class="equipos__article--descr">HDD 1Tb, SO windows 10</p>
                     <p class="equipos__article--precio"> <span>$35.000</span> $30.999</p>
@@ -123,12 +138,12 @@
             </article> <!-- Fin articulo 4 -->
 
 
-            <article class="equipos__article"> <!-- Inicio articulo 5 -->
+            <article class="equipos__article" title="pc intel pentium - 42.999"> <!-- Inicio articulo 5 -->
                 <div> <img src="../images/equipo5.jpg" alt="imagen de pc 5"> </div>
 
-                <div>
+                <div class="descripcion">
                     <p class="descuento">hasta 12 cuotas sin interes</p>
-                    <h2>Pc Intel Pentium!</h2>
+                    <h2>Pc <span class="intel">Intel</span> Pentium!</h2>
                     <p class="equipos__article--descr">G5420 - 8Gb DDR4</p>
                     <p class="equipos__article--descr">Incluye teclado y mouse!</p>
                     <p class="equipos__article--precio"> <span>$45.000</span> $42.999</p>
@@ -137,12 +152,12 @@
             </article> <!-- Fin articulo 5 -->
 
 
-            <article class="equipos__article"> <!-- Inicio articulo 6 -->
+            <article class="equipos__article" title="pc amd ryzen 5 - 72.999"> <!-- Inicio articulo 6 -->
                 <div> <img src="../images/equipo6.jpg" alt="imagen de pc 6"> </div>
 
-                <div>
+                <div class="descripcion">
                     <p class="descuento">ahora 18!! -  sin interes!</p>
-                    <h2>Pc Gamer Ryzen 5!</h2>
+                    <h2>Pc <span class="amd">AMD</span> Ryzen 5!</h2>
                     <p class="equipos__article--descr">GPU Ryzen 5 5600G</p>
                     <p class="equipos__article--descr">SSD 500Gb, incluye RGB!</p>
                     <p class="equipos__article--precio"> <span>$75.000</span> $72.999</p>
@@ -151,12 +166,12 @@
             </article> <!-- Fin articulo 6 -->
 
 
-            <article class="equipos__article"> <!-- Inicio articulo 7 -->
+            <article class="equipos__article" title="pc amd ryzen 7 - 150.000"> <!-- Inicio articulo 7 -->
                 <div> <img src="../images/equipo7.jpg" alt="imagen de pc 7"> </div>
 
-                <div>
+                <div class="descripcion">
                     <p class="descuento">10% de descuento!!!</p>
-                    <h2>Pc AMD Ryzen 7!</h2>
+                    <h2>Pc <span class="amd">AMD</span> Ryzen 7!</h2>
                     <p class="equipos__article--descr">Ryzen 7 5800X - SSD 500Gb</p>
                     <p class="equipos__article--descr">GeForce GTX 1650 MSI</p>
                     <p class="equipos__article--precio"> <span>$155.000</span> $150.000</p>
@@ -165,12 +180,12 @@
             </article> <!-- Fin articulo 7 -->
 
 
-            <article class="equipos__article"> <!-- Inicio articulo 8 -->
+            <article class="equipos__article" title="pc amd ryzen 7 - 142.999"> <!-- Inicio articulo 8 -->
                 <div> <img src="../images/equipo8.jpg" alt="imagen de pc 8"> </div>
 
-                <div>
+                <div class="descripcion">
                     <p class="descuento">hasta 12 cuotas sin interes</p>
-                    <h2>Pc AMD Ryzen 7!</h2>
+                    <h2>Pc <span class="amd">AMD</span> Ryzen 7!</h2>
                     <p class="equipos__article--descr">GPU Ryzen 7 5700G</p>
                     <p class="equipos__article--descr">SSD M.2 500, SO windows 10</p>
                     <p class="equipos__article--precio"> <span>$145.000</span> $142.999</p>
@@ -179,12 +194,12 @@
             </article> <!-- Fin articulo 8 -->
 
 
-            <article class="equipos__article"> <!-- Inicio articulo 9 -->
+            <article class="equipos__article" title="pc intel i5 - 10gen - 102.999"> <!-- Inicio articulo 9 -->
                 <div> <img src="../images/equipo9.jpg" alt="imagen de pc 9"> </div>
 
-                <div>
+                <div class="descripcion">
                     <p class="descuento">hasta 12 cuotas sin interes</p>
-                    <h2>Pc Intel i5 - 10 Gen!</h2>
+                    <h2>Pc <span class="intel">Intel</span> i5 - 10 Gen!</h2>
                     <p class="equipos__article--descr">Intel Core i5 10400</p>
                     <p class="equipos__article--descr">SSD 240Gb, 16Gb ram</p>
                     <p class="equipos__article--precio"> <span>$105.000</span> $102.999</p>
@@ -193,12 +208,12 @@
             </article> <!-- Fin articulo 9 -->
 
 
-            <article class="equipos__article"> <!-- Inicio articulo 10 -->
+            <article class="equipos__article" title="pc pro amd ryzen 9 - 452.999"> <!-- Inicio articulo 10 -->
                 <div> <img src="../images/equipo10.jpg" alt="imagen de pc 10"> </div>
 
-                <div>
+                <div class="descripcion">
                     <p class="descuento">ahora 18!! -  sin interes!</p>
-                    <h2>Pc Profesional Ryzen 9</h2>
+                    <h2>Pc Pro <span class="amd">AMD</span> Ryzen 9</h2>
                     <p class="equipos__article--descr">Ryzen 9 5900X - 32Gb ram</p>
                     <p class="equipos__article--descr">SSD M.2 1Tb, Rtx3090</p>
                     <p class="equipos__article--precio"> <span>$455.000</span> $452.999</p>
@@ -207,12 +222,12 @@
             </article> <!-- Fin articulo 10 -->
 
 
-            <article class="equipos__article"> <!-- Inicio articulo 11 -->
+            <article class="equipos__article" title="pc pro intel i9 - 652.999"> <!-- Inicio articulo 11 -->
                 <div> <img src="../images/equipo11.jpg" alt="imagen de pc 11"> </div>
 
-                <div>
+                <div class="descripcion">
                     <p class="descuento">ahora 18!! -  sin interes!</p>
-                    <h2>Pc Profesional Intel i9</h2>
+                    <h2>Pc Pro <span class="intel">Intel</span> i9</h2>
                     <p class="equipos__article--descr">Intel i9 11900K - 11ava Gen</p>
                     <p class="equipos__article--descr">SSD M.2 1Tb, 64Gb Ram</p>
                     <p class="equipos__article--precio"> <span>$655.000</span> $652.999</p>
@@ -221,10 +236,10 @@
             </article> <!-- Fin articulo 11 -->
 
 
-            <article class="equipos__article"> <!-- Inicio articulo 12 -->
+            <article class="equipos__article" title="pc armada a tu medida"> <!-- Inicio articulo 12 -->
                 <div> <img src="../images/equipo12.jpg" alt="imagen de pc 12"> </div>
 
-                <div>
+                <div class="descripcion">
                     <p class="descuento">hasta 18!! -  sin interes!</p>
                     <h2>Pc Armada a tu medida!</h2>
                     <p class="equipos__article--descr">Eliges gabinete, cpu/apu, ram</p>
@@ -257,10 +272,10 @@
                     <h3 class="titulo-contacto"> Contáctanos </h3>
 
                     <ul class="text-contacto2">
-                        <li> <i class="fas fa-home"></i> <span class="letter"> Juan del Campillo 1000 </span> </li>
-                        <li> <i class="fas fa-envelope"></i> <span class="letter"> davidx6x@hotmail.com </span> </li>
-                        <li> <i class="fas fa-phone"></i> <span class="letter"> +54 351 155155005 </span> </li>
-                        <li> <i class="fas fa-headset"></i> <span class="letter"> +54 351 8828398 </span> </li>
+                        <li> <i class="fas fa-home"></i> <span class="letter" title="juan del campillo 1000"> Juan del Campillo 1000 </span> </li>
+                        <li> <i class="fas fa-envelope"></i> <span class="letter" title="davidx6x@hotmail.com"> davidx6x@hotmail.com </span> </li>
+                        <li> <i class="fas fa-phone"></i> <span class="letter" title="54 351 155155005"> +54 351 155155005 </span> </li>
+                        <li> <i class="fas fa-headset"></i> <span class="letter" title="54 351 8828398"> +54 351 8828398 </span> </li>
                     </ul>
                 </div>
             </div>
@@ -299,7 +314,7 @@
     </div>
     </div>
 
-<hr>
+    <hr>
 
     <!-- FOOTER -->
     <footer class="container-fluid bg-dark"> 

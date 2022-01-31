@@ -5,9 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <meta name="keywords" content="pc, marcas, componentes, accesorios, contacto, ubicacion">
+    <meta name="description" content="las marcas y los componentes para armar una pc gamer">
+    <meta name="author" content="David Leonel Abran" />
+    <meta name="copyright" content="David Leonel S.A" />
+
     <!-- Favicon -->
     <link rel="shortcut icon" href="./images/favicon.jpg" type="image/x-icon">
-    <title>Home</title>
+    <!-- Título de la página -->
+    <title>Inicio</title>
+
     <!-- Normalize -->
     <link rel="stylesheet" href="css/normalize.css">
     <!-- Fuente de letras -->
@@ -27,38 +36,44 @@
 
 
 <body>
-    <!-- NAVEGACIÓN -->
-    <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
-        <div class="container">      
-            <a href="index.html" class="navbar-brand">
-                <div class="img-fluid nav-img"> <img src="./images/logo1.png" alt="imagen del logo"> </div>
-            </a>
-
-            <a href="index.html" class="navbar-brand">
-                <div class="img-fluid nav-img"> <img src="./images/logoTuf.png" alt="logo tuf"> </div>
-            </a>
-
-            <a href="index.html" class="navbar-brand">
-                <div class="img-fluid nav-img"> <img src="./images/logoAsus.png" alt="logo asus"> </div>
-            </a>
-            
-            <button type="button" class="navbar-toggler" data-toggle="collapse"
-                data-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false"
-                aria-label="Desplegar menú de navegación">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="menu-principal">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href="index.html" class="nav-link active">Inicio</a></li>
-                    <li class="nav-item"><a href="./pages/equipos.html" class="nav-link">Equipos</a></li>
-                    <li class="nav-item"><a href="./pages/galeria.html" class="nav-link">Galería</a></li>
-                    <li class="nav-item"><a href="./pages/novedades.html" class="nav-link">Novedades</a></li>
-                    <li class="nav-item"><a href="./pages/contacto.html" class="nav-link">Contacto</a></li>
-                </ul>
+    <!-- HEADER -->
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+                    <div class="container">      
+                        <a href="index.html" class="navbar-brand">
+                            <div class="img-fluid nav-img"> <img src="./images/logo1.png" alt="imagen del logo"> </div>
+                        </a>
+                
+                        <a href="index.html" class="navbar-brand">
+                            <div class="img-fluid nav-img"> <img src="./images/logoTuf.png" alt="logo tuf"> </div>
+                        </a>
+                
+                        <a href="index.html" class="navbar-brand">
+                            <div class="img-fluid nav-img"> <img src="./images/logoAsus.png" alt="logo asus"> </div>
+                        </a>
+                        
+                        <button type="button" class="navbar-toggler" data-toggle="collapse"
+                            data-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false"
+                            aria-label="Desplegar menú de navegación">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                
+                        <div class="collapse navbar-collapse" id="menu-principal">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item"><a href="index.html" class="nav-link active">Inicio</a></li>
+                                <li class="nav-item"><a href="./pages/equipos.html" class="nav-link">Equipos</a></li>
+                                <li class="nav-item"><a href="./pages/galeria.html" class="nav-link">Galería</a></li>
+                                <li class="nav-item"><a href="./pages/novedades.html" class="nav-link">Novedades</a></li>
+                                <li class="nav-item"><a href="./pages/contacto.html" class="nav-link">Contacto</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav> <!-- .Fin navegación -->
             </div>
         </div>
-    </nav> <!-- .Fin navegación -->
+    </header>
 
 
     
@@ -126,41 +141,41 @@
         <div class="row mt-5">
             <div class="col-12">
                 <div class="text-center">
-                    <h2 class="titulo-marcas">Las Mejores Marcas!</h2>
+                    <h1 class="titulo-marcas">Las Mejores Marcas!</h1>
                 </div>
             </div>
 
             <div class="col-12 d-flex flex-column flex-lg-row justify-content-around align-items-center flex-wrap mt-5">
                 <div>
-                    <img src="images/intel1.jpg" alt="imagen de intel" class="img-fluid m-x-auto py-2">   
+                    <img src="images/intel1.jpg" alt="imagen de intel" title="intel" class="img-fluid m-x-auto py-2">   
                 </div>
                 
                 <div>
-                    <img src="images/intelvsamd.jpg" alt="imagen de intel vs amd" class="img-fluid m-x-auto py-2">
+                    <img src="images/intelvsamd.jpg" alt="imagen de intel vs amd" title="intel vs amd" class="img-fluid m-x-auto py-2">
                 </div>
                 
                 <div>
-                    <img src="images/amd1.jpg" alt="imagen de amd" class="img-fluid m-x-auto py-2">   
+                    <img src="images/amd1.jpg" alt="imagen de amd" title="amd" class="img-fluid m-x-auto py-2">   
                 </div>
 
                 <div>
-                    <img src="images/nvidiageforce1.jpg" alt="imagen de geforce" class="img-fluid m-x-auto py-2">   
+                    <img src="images/nvidiageforce1.jpg" alt="imagen de geforce" title="gforce" class="img-fluid m-x-auto py-2">   
                 </div>
                 
                 <div>
-                    <img src="images/reddragon1.jpg" alt="imagen de redDragon" class="img-fluid m-x-auto py-2">
+                    <img src="images/reddragon1.jpg" alt="imagen de redDragon" title="red dragon" class="img-fluid m-x-auto py-2">
                 </div>
                 
                 <div>
-                    <img src="images/corsair1.jpg" alt="imagen de corsair" class="img-fluid m-x-auto py-2">   
+                    <img src="images/corsair1.jpg" alt="imagen de corsair" title="corsair" class="img-fluid m-x-auto py-2">   
                 </div>
 
                 <div>
-                    <img src="images/gigabytes1.png" alt="imagen de gigabyte" class="img-fluid m-x-auto py-2">   
+                    <img src="images/gigabytes1.png" alt="imagen de gigabyte" title="gigabyte" class="img-fluid m-x-auto py-2">   
                 </div>
 
                 <div>
-                    <img src="images/msi1.png" alt="imagen de msi" class="img-fluid m-x-auto py-2">   
+                    <img src="images/msi1.png" alt="imagen de msi" title="msi" class="img-fluid m-x-auto py-2">   
                 </div>
             </div>
         </div> <!-- Fin fila de mejores marcas -->
@@ -178,7 +193,7 @@
                     <div class="card-body">
                         <p class="card-text text-center font-weight-bold">Las Mejores</p>
                         </div>
-                        <img src="./images/mother1.jpg" alt="Card image img-fluid m-x-auto py-2">
+                        <img src="./images/mother1.jpg" alt="Card image img-fluid m-x-auto py-2" title="placa madres">
                         <div class="card-body">
                         <p class="card-text text-center text-uppercase font-weight-bold">placa madres</p>
                         </div>
@@ -188,7 +203,7 @@
                     <div class="card-body">
                         <p class="card-text text-center font-weight-bold">Los Mejores</p>
                         </div>
-                        <img src="./images/gabinete1.jpg" alt="Card image img-fluid m-x-auto py-2">
+                        <img src="./images/gabinete1.jpg" alt="Card image img-fluid m-x-auto py-2" title="gabinetes">
                         <div class="card-body">
                         <p class="card-text text-center text-uppercase font-weight-bold">gabinetes</p>
                         </div>
@@ -198,7 +213,7 @@
                     <div class="card-body">
                         <p class="card-text text-center font-weight-bold">Las Mejores</p>
                         </div>
-                        <img src="./images/ram1.jpg" alt="Card image img-fluid m-x-auto py-2">
+                        <img src="./images/ram1.jpg" alt="Card image img-fluid m-x-auto py-2" title="ram">
                         <div class="card-body">
                         <p class="card-text text-center text-uppercase font-weight-bold">ram</p>
                         </div>
@@ -211,7 +226,7 @@
                     <div class="card-body">
                         <p class="card-text text-center font-weight-bold">Las Mejores</p>
                         </div>
-                        <img src="./images/ssd1.jpg" alt="Card image img-fluid m-x-auto py-2">
+                        <img src="./images/ssd1.jpg" alt="Card image img-fluid m-x-auto py-2" title="hdd ssd m2">
                         <div class="card-body">
                         <p class="card-text text-center text-uppercase font-weight-bold">hdd / ssd / m.2</p>
                         </div>
@@ -221,7 +236,8 @@
                     <div class="card-body">
                         <p class="card-text text-center font-weight-bold">Los Mejores</p>
                         </div>
-                        <img src="./images/enfriamiento1.jpg" alt="Card image img-fluid m-x-auto py-2">
+                        <img src="./images/enfriamiento1.jpg" alt="Card image img-fluid m-x-auto py-2"
+                        title="enfriamientos liquidos">
                         <div class="card-body">
                         <p class="card-text text-center text-uppercase font-weight-bold">enfriamientos líquidos</p>
                         </div>
@@ -231,7 +247,7 @@
                     <div class="card-body">
                         <p class="card-text text-center font-weight-bold">Las Mejores</p>
                         </div>
-                        <img src="./images/fuente1.jpg" alt="Card image img-fluid m-x-auto py-2">
+                        <img src="./images/fuente1.jpg" alt="Card image img-fluid m-x-auto py-2" title="fuentes">
                         <div class="card-body">
                         <p class="card-text text-center text-uppercase font-weight-bold">fuentes</p>
                         </div>
@@ -257,13 +273,13 @@
             <div class="col-12 col-lg-6">
                 <div class="text-center centrar-box">
                     <div class="box-skills text-left">
-                        <h4><i class="far fa-check-circle"></i> Expertos en armados de Pc Gamer</h4>
-                        <h4><i class="far fa-check-circle"></i> Todos los drivers y actualizaciones</h4>
-                        <h4><i class="far fa-check-circle"></i> Windows 10 y 11 sin cargo!</h4>
-                        <h4><i class="far fa-check-circle"></i> Las últimas tecnologías de punta</h4>
-                        <h4><i class="far fa-check-circle"></i> Las marcas más confiables con garantías</h4>
-                        <h4><i class="far fa-check-circle"></i> Soporte técnico a tu disposición!</h4>
-                        <h4><i class="far fa-check-circle"></i> Lo armamos a tu medida y presupuesto</h4>
+                        <h4 title="expertos en armados de pc gamer"><i class="far fa-check-circle"></i> Expertos en armados de Pc Gamer</h4>
+                        <h4 title="todos los drivers y actualizaciones"><i class="far fa-check-circle"></i> Todos los drivers y actualizaciones</h4>
+                        <h4 title="windows 10 y 11 sin cargo"><i class="far fa-check-circle"></i> Windows 10 y 11 sin cargo!</h4>
+                        <h4 title="las ultimas tecnologias de punta"><i class="far fa-check-circle"></i> Las últimas tecnologías de punta</h4>
+                        <h4 title="las marcas mas confiables con garantias"><i class="far fa-check-circle"></i> Las marcas más confiables con garantías</h4>
+                        <h4 title="soporte tecnico a tu disposicion"><i class="far fa-check-circle"></i> Soporte técnico a tu disposición!</h4>
+                        <h4 title="lo armamos a tu medida y presupuesto"><i class="far fa-check-circle"></i> Lo armamos a tu medida y presupuesto</h4>
                     </div>
                 </div>
             </div>
@@ -291,10 +307,10 @@
                     <h3 class="titulo-contacto"> Contáctanos </h3>
 
                     <ul class="text-contacto2">
-                        <li> <i class="fas fa-home"></i> <span class="letter"> Juan del Campillo 1000 </span> </li>
-                        <li> <i class="fas fa-envelope"></i> <span class="letter"> davidx6x@hotmail.com </span> </li>
-                        <li> <i class="fas fa-phone"></i> <span class="letter"> +54 351 155155005 </span> </li>
-                        <li> <i class="fas fa-headset"></i> <span class="letter"> +54 351 8828398 </span> </li>
+                        <li> <i class="fas fa-home"></i> <span class="letter" title="juan del campillo 1000"> Juan del Campillo 1000 </span> </li>
+                        <li> <i class="fas fa-envelope"></i> <span class="letter" title="davidx6x@hotmail.com"> davidx6x@hotmail.com </span> </li>
+                        <li> <i class="fas fa-phone"></i> <span class="letter" title="54 351 155155005"> +54 351 155155005 </span> </li>
+                        <li> <i class="fas fa-headset"></i> <span class="letter" title="54 351 8828398"> +54 351 8828398 </span> </li>
                     </ul>
                 </div>
             </div>

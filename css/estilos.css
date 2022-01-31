@@ -78,7 +78,7 @@
         text-align: center;
     }
 
-    .nombrePagina > p {
+    .nombrePagina > h1 {
         margin: 1.5rem;
         font-size: 2rem;
         font-weight: 700;

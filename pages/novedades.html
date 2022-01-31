@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- Meta Tag Requeridos -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <meta name="keywords" content="novedades, noticias, especiales, videos, juegos, pc, informativos, contacto, ubicacion">
+    <meta name="description" content="las ultimas novedades y especiales de juegos y de pc">
+    <meta name="author" content="David Leonel Abran" />
+    <meta name="copyright" content="David Leonel S.A" />
+
     <!-- Favicon -->
     <link rel="shortcut icon" href="../images/favicon.jpg" type="image/x-icon">
     <title>Novedades</title>
+
     <!-- Normalize -->
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,43 +32,50 @@
 </head>
 
 <body>
-    <!-- NAVEGACIÓN -->
-    <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
-        <div class="container">      
-            <a href="index.html" class="navbar-brand">
-                <div class="img-fluid nav-img"> <img src="../images/logo1.png" alt="imagen del logo"> </div>
-            </a>
-
-            <a href="index.html" class="navbar-brand">
-                <div class="img-fluid nav-img"> <img src="../images/logoTuf.png" alt="logo tuf"> </div>
-            </a>
-
-            <a href="index.html" class="navbar-brand">
-                <div class="img-fluid nav-img"> <img src="../images/logoAsus.png" alt="logo asus"> </div>
-            </a>
-            
-            <button type="button" class="navbar-toggler" data-toggle="collapse"
-                data-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false"
-                aria-label="Desplegar menú de navegación">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="menu-principal">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href="../index.html" class="nav-link">Inicio</a></li>
-                    <li class="nav-item"><a href="equipos.html" class="nav-link">Equipos</a></li>
-                    <li class="nav-item"><a href="galeria.html" class="nav-link">Galería</a></li>
-                    <li class="nav-item"><a href="novedades.html" class="nav-link active">Novedades</a></li>
-                    <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
-                </ul>
+    <!-- HEADER -->
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+                    <div class="container">      
+                        <a href="index.html" class="navbar-brand">
+                            <div class="img-fluid nav-img"> <img src="../images/logo1.png" alt="imagen del logo"> </div>
+                        </a>
+                
+                        <a href="index.html" class="navbar-brand">
+                            <div class="img-fluid nav-img"> <img src="../images/logoTuf.png" alt="logo tuf"> </div>
+                        </a>
+                
+                        <a href="index.html" class="navbar-brand">
+                            <div class="img-fluid nav-img"> <img src="../images/logoAsus.png" alt="logo asus"> </div>
+                        </a>
+                        
+                        <button type="button" class="navbar-toggler" data-toggle="collapse"
+                            data-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false"
+                            aria-label="Desplegar menú de navegación">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                
+                        <div class="collapse navbar-collapse" id="menu-principal">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item"><a href="../index.html" class="nav-link">Inicio</a></li>
+                                <li class="nav-item"><a href="equipos.html" class="nav-link">Equipos</a></li>
+                                <li class="nav-item"><a href="galeria.html" class="nav-link">Galería</a></li>
+                                <li class="nav-item"><a href="novedades.html" class="nav-link active">Novedades</a></li>
+                                <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav> <!-- .Fin navegación -->
             </div>
         </div>
-    </nav> <!-- .Fin navegación -->
+    </header>
     
 
+    <!-- MAIN -->
     <main class="contenedor novedades mt-5"> <!-- Inicio Main -->
         <div class="nombrePagina">
-            <p>Novedades</p>
+            <h1>Novedades</h1>
         </div>
 
         <section class="novedades__section"> <!-- Inicio del Section -->
@@ -67,19 +83,19 @@
                 <h2>Noticias y Especiales de PC!</h2>
             </div>
 
-            <article class="novedades__article novedades__article--padre"> <!-- Inicio article 1 -->
+            <article class="novedades__article novedades__article--padre" title="Xbox Game Pass para PC cambia de nombre y confirma nuevos juegos durante The Game Awards 2021"> <!-- Inicio article 1 -->
                 <div class="novedades__article--hijos"> <img src="../images/novedad1.jpg" alt="imagen novedad 1"> </div>
 
                 <div class="novedades__article--noticia novedades__article--hijos">
                     <p class="novedades__article--violeta">NOTICIA + VIDEO</p>
                     <h3>Xbox Game Pass para PC cambia de nombre y confirma <br> nuevos juegos durante The Game Awards 2021.</h3>
                     <h4>Se completa una lista publicada recientemente en la que <br> se anunciaba la llegada de 4 nuevos juegos al servicio.</h4>
-                    <p>/   12/12/2021</p>
+                    <p>12/12/2021</p>
                 </div>
             </article> <!-- Fin article 1 -->
 
 
-            <article class="novedades__article novedades__article--padre"> <!-- Inicio article 2 -->
+            <article class="novedades__article novedades__article--padre" title="GTFO se publica por sorpresa en PC: su versión 1.0 aterroriza la gala de The Game Awards 2021."> <!-- Inicio article 2 -->
                 <div class="novedades__article--hijos"> <img src="../images/novedad2.jpg" alt="imagen novedad 2"> </div>
 
                 <div class="novedades__article--noticia novedades__article--hijos">
@@ -87,55 +103,55 @@
                     <h3>GTFO se publica por sorpresa en PC: su versión 1.0 aterroriza <br> la gala de The Game Awards 2021.</h3>
                     <h4>10 Chambers ya había anunciado el abandono del Acceso Anticipado con una <br> versión mucho
                         más pulida.</h4>
-                    <p>/   03/12/2021</p>
+                    <p>03/12/2021</p>
                 </div>
             </article> <!-- Fin article 2 -->
 
 
-            <article class="novedades__article novedades__article--padre"> <!-- Inicio article 3 -->
+            <article class="novedades__article novedades__article--padre" title="PUBG será free to play: el battle royale podrá descargarse gratis en PC, PlayStation y Xbox."> <!-- Inicio article 3 -->
                 <div class="novedades__article--hijos"> <img src="../images/novedad3.jpg" alt="imagen novedad 3"> </div>
 
                 <div class="novedades__article--noticia novedades__article--hijos">
                     <p class="novedades__article--violeta">NOTICIA + VIDEO</p>
                     <h3>PUBG será free to play: el battle royale podrá descargarse gratis <br> en PC, PlayStation y Xbox.</h3>
                     <h4>A partir del 12 de enero, PlayerUnknown's Battlegrounds cambia de modelo y <br> dejará de ser de pago.</h4>
-                    <p>/   01/12/2021</p>
+                    <p>01/12/2021</p>
                 </div>
             </article> <!-- Fin article 3 -->
 
 
-            <article class="novedades__article novedades__article--padre"> <!-- Inicio article 4 -->
+            <article class="novedades__article novedades__article--padre" title="7 juegos gratis para PC, PlayStation y Xbox: este finde tenemos acción, estrategia y un MMO."> <!-- Inicio article 4 -->
                 <div class="novedades__article--hijos"> <img src="../images/novedad4.jpg" alt="imagen novedad 4"> </div>
 
                 <div class="novedades__article--noticia novedades__article--hijos">
                     <p class="novedades__article--violeta">ESPECIAL</p>
                     <h3>7 juegos gratis para PC, PlayStation y Xbox: este finde tenemos <br> acción, estrategia y un MMO.</h3>
                     <h4>Haz la resaca de los The Game Awards 2021 más liviana disfrutando con <br> algunas de estas aventuras a coste cero.</h4>
-                    <p>/   28/11/2021</p>
+                    <p>28/11/2021</p>
                 </div>
             </article> <!-- Fin article 4 -->
 
 
-            <article class="novedades__article novedades__article--padre"> <!-- Inicio article 5 -->
+            <article class="novedades__article novedades__article--padre" title="Si buscas auriculares gaming inalámbricos, ojo a estos HyperX: en oferta por menos de 100 euros."> <!-- Inicio article 5 -->
                 <div class="novedades__article--hijos"> <img src="../images/novedad5.jpg" alt="imagen novedad 5"> </div>
 
                 <div class="novedades__article--noticia novedades__article--hijos">
                     <p class="novedades__article--violeta">NOTICIA</p>
                     <h3>Si buscas auriculares gaming inalámbricos, ojo a estos <br> HyperX: en oferta por menos de 100 euros.</h3>
                     <h4>Estos auriculares gaming inalámbricos de HyperX están rebajados <br> a su mínimo histórico.</h4>
-                    <p>/   05/11/2021</p>
+                    <p>05/11/2021</p>
                 </div>
             </article> <!-- Fin article 5 -->
 
 
-            <article class="novedades__article novedades__article--padre"> <!-- Inicio article 6 -->
+            <article class="novedades__article novedades__article--padre" title="Anunciado Dune: Spice Wars, un nuevo juego de estrategia inspirado en la novela de Frank Herbert."> <!-- Inicio article 6 -->
                 <div class="novedades__article--hijos"> <img src="../images/novedad6.jpg" alt="imagen novedad 6"> </div>
 
                 <div class="novedades__article--noticia novedades__article--hijos">
                     <p class="novedades__article--violeta">NOTICIA + VIDEO</p>
                     <h3>Anunciado Dune: Spice Wars, un nuevo juego de estrategia <br> inspirado en la novela de Frank Herbert.</h3>
                     <h4>El proyecto corre a cargo del estudio Shiro Games, responsables del título <br> de estrategia Northgard.</h4>
-                    <p>/   02/11/2021</p>
+                    <p>02/11/2021</p>
                 </div>
             </article> <!-- Fin article 6 -->
             
@@ -162,10 +178,10 @@
                     <h3 class="titulo-contacto"> Contáctanos </h3>
 
                     <ul class="text-contacto2">
-                        <li> <i class="fas fa-home"></i> <span class="letter"> Juan del Campillo 1000 </span> </li>
-                        <li> <i class="fas fa-envelope"></i> <span class="letter"> davidx6x@hotmail.com </span> </li>
-                        <li> <i class="fas fa-phone"></i> <span class="letter"> +54 351 155155005 </span> </li>
-                        <li> <i class="fas fa-headset"></i> <span class="letter"> +54 351 8828398 </span> </li>
+                        <li> <i class="fas fa-home"></i> <span class="letter" title="juan del campillo 1000"> Juan del Campillo 1000 </span> </li>
+                        <li> <i class="fas fa-envelope"></i> <span class="letter" title="davidx6x@hotmail.com"> davidx6x@hotmail.com </span> </li>
+                        <li> <i class="fas fa-phone"></i> <span class="letter" title="54 351 155155005"> +54 351 155155005 </span> </li>
+                        <li> <i class="fas fa-headset"></i> <span class="letter" title="54 351 8828398"> +54 351 8828398 </span> </li>
                     </ul>
                 </div>
             </div>

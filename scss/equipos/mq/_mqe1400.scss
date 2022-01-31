@@ -1,0 +1,12 @@
+
+
+/* QUERIE PARA "1400" */
+@media screen and (max-width: 1400px) {
+    .main__contactos--padre {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 110rem;
+    }
+}

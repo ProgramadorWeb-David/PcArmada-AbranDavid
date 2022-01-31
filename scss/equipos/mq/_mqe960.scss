@@ -1,0 +1,14 @@
+
+
+/* QUERIE PARA "960" */
+@media screen and (max-width: 960px) {
+    .main__contactos--padre {
+        width: 98%;
+    }
+
+    /* footer */
+    .footer__padre {
+        flex-wrap: wrap;
+        padding: 1rem;
+    }
+}

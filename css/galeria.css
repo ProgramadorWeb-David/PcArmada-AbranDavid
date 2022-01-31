@@ -1,6 +1,10 @@
 
 
 /* Estilos para el Main */
+.galeria {
+    margin-top: 12rem;
+}
+
 .galeria__section--h2 > h2 {
     color: var(--primario);
     text-align: center;

@@ -1,0 +1,7 @@
+
+
+@mixin letras($colorLetra, $size, $weight) {
+    color: $colorLetra;
+    font-size: $size;
+    font-weight: $weight;
+}

@@ -1,0 +1,27 @@
+
+
+/* QUERIE PARA "480" */
+@media screen and (max-width: 480px) {
+    .main__contactos--padre {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        height: 65rem;
+    }
+
+    .main__contactos--hijos {
+        &:nth-child(1) {
+            grid-column: 1 / 2;
+            grid-row: 1 / 2;
+        }
+
+        &:nth-child(2) {
+            grid-column: 1 / 2;
+            grid-row: 2 / 3;
+        }
+
+        &:nth-child(3) {
+            grid-column: 1 / 2;
+            grid-row: 3 / 4;
+        }
+    }
+}

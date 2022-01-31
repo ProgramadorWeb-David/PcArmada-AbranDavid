@@ -1,0 +1,11 @@
+
+
+/* QUERIE PARA "1200" */
+@media screen and (max-width: 1200px) {
+    .equipos__section--padre {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}

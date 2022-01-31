@@ -1,0 +1,172 @@
+
+
+/* EXTEND */
+%centrado {
+    text-align: center;
+    letter-spacing: 1.2px;
+}
+
+
+/* MIXIN */
+@import './mixin';
+
+
+/* MAPA */
+$marcas: (
+    rojo: #bf1613,
+    celeste: #006BC4,
+    fuente: 'Lobster', cursive
+    sombra1: 10px 10px 12px -8px rgba(0,0,0,0.75),
+    sombra2: 30px -30px 13px -28px rgba(0,0,0,0.75),
+);
+
+.amd {
+    color: map-get($marcas, rojo);
+    font-family: map-get($marcas, fuente);
+    box-shadow: map-get($marcas, sombra1);
+}
+
+.intel {
+    color: map-get($marcas, celeste);
+    font-family: map-get($marcas, fuente);
+    box-shadow: map-get($marcas, sombra2);
+}
+
+
+// OTRA FORMA!
+// @each $argumento, $valor in $marcas {
+//     .#{$argumento} {
+//         color: $valor;
+//     }
+// }
+
+
+
+/* Estilos para contenedor de articulos */
+.equipos {
+    margin-top: 12rem;
+
+    .equipos__section {
+        background-color: var(--grisClaro);
+        overflow: hidden;
+
+        .equipos__article {
+            background-color: var(--blanco);
+            border: 1px solid var(--grisOscuro2);
+            max-width: 34rem;
+            height: 58rem;
+            margin: 3rem;
+            float: left;
+            /*-----------*/
+            &:hover {
+                transform: scale(1.1);
+                -webkit-transform: scale(1.1);
+                -moz-transform: scale(1.1);
+                -ms-transform: scale(1.1);
+                -o-transform: scale(1.1);
+                /* --------------- */
+                background: linear-gradient(to top, var(--naranjaUno) 0%, var(--naranjaDos) 20%);
+                /* --------------- */
+                .equipos__article--precio > span {
+                    display: none;
+                }
+                /* --------------- */
+                .equipos__article--precio {
+                    animation: rightText 300ms linear;
+                    -webkit-animation: rightText 300ms linear;
+                    // font-size: 4rem;
+                    // font-weight: bold;
+                    // color: white;
+                    @include letras(white, 4rem, bold);
+                    text-shadow: 2px 2px 4px #000000;
+                    margin: 2rem auto 1.8rem auto
+                }
+            }
+        }
+    }
+}
+
+
+.descripcion {
+    .descuento {
+        @extend %centrado;
+        // color: var(--verdeClaro);
+        // font-size: 2rem;
+        // font-weight: 700;
+        @include letras(var(--verdeClaro), 2rem, 700);
+    }
+
+    h2 {
+        @extend %centrado;
+    }
+
+    .equipos__article--descr {
+        @extend %centrado;
+        // font-weight: 700;
+        // color: var(--negro);
+        @include letras(var(--negro), 1.5rem, 700);
+        line-height: 3rem;
+        margin-bottom: -1rem;
+    }
+
+    .equipos__article--precio {
+        margin: 4rem auto 1.8rem auto;
+        @extend %centrado;
+        font-size: 3rem;
+
+        span {
+            text-align: left;
+            font-size: 2rem;
+            color: var(--grisOscuro2);
+            /* para tachar precio */
+            text-decoration:line-through;
+            margin-right: 4.5rem;
+        }
+    }
+
+    .equipos__article--btn {
+        color: var(--grisClaro);
+        font-weight: 700;
+        margin-left: 32%;
+        width: 10rem;
+        height: 3rem;
+        background-color: var(--celeste);
+        border-radius: .8rem;
+        -webkit-border-radius: .8rem;
+        -moz-border-radius: .8rem;
+        -ms-border-radius: .8rem;
+        -o-border-radius: .8rem;
+        /* ------------- */
+        &:hover {
+            cursor: pointer;
+            background-color: var(--violeta);
+        }
+    }
+}
+
+
+/* Media Queries */
+
+/* 1400 */
+@import './mq/mqe1400';
+
+/* 1200 */
+@import './mq/mqe1200';
+
+/* 1110 */
+@import './mq/mqe1110';
+
+/* 960 */
+@import './mq/mqe960';
+
+/* 850 */
+@import './mq/mqe850';
+
+/* 796 */
+@import './mq/mqe796';
+
+/* 642 */
+@import './mq/mqe642';
+
+/* 480 */
+@import './mq/mqe480';
