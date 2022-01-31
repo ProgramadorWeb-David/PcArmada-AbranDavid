@@ -6,7 +6,8 @@
 }
 
 .contacto__formulario {
-    background-color: rgba(0, 0, 0, .2);
+    /* background: linear-gradient(to right, #1073BA 0%, #00DA55 100%); */
+    background: linear-gradient(to right, #3fade8 0%, #89dd97 100%);
     width: min(60rem, 100%); /* utiliza el más pequeño */
     margin: 0px auto;
     padding: 2rem;
@@ -15,7 +16,8 @@
 
 .contacto__formulario legend {
     text-align: center;
-    color: var(--verdeOscuro);
+    color: var(--blanco);
+    text-shadow: 1px 2px 1px rgb(0, 0, 0, .4);
     font-weight: bold;
     font-size: 2rem;
 }
@@ -26,7 +28,10 @@
 }
 
 .contacto__campo label {
-    color: var(--celeste);
+    color: var(--blanco);
+    text-shadow: 1px 2px 1px rgb(0, 0, 0, .4);
+    letter-spacing: 2px;
+    font-size: 2rem;
     font-weight: bold;
     margin-bottom: .5rem;
     display: block;
@@ -35,10 +40,16 @@
 .contacto__campo textarea {
     height: 16rem;
     margin-top: .1rem;
+    width: 100%;
 }
 
+.contacto__campo--p {
+    color: var(--blanco);
+}
 
-
+.contacto__padre--tres p {
+    color: var(--blanco);
+}
 
 /** RESPONSIVE **/
 
