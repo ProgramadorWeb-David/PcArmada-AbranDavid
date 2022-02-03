@@ -72,11 +72,62 @@
     /* Estilo para el nombre de la página */
     .nombrePagina {
         padding: .2rem 0 .2rem 0;
-        border-top: 1px solid var(--grisOscuro);
-        border-bottom: 1px solid var(--grisOscuro);
         margin: .4rem 0 .4rem 0;
         text-align: center;
+        animation: blink 8s infinite linear;
+        -webkit-animation: blink 8s infinite linear;
+}
+
+@keyframes blink {
+    0% {
+        border-top: 2px solid #8bffe8;
+        border-bottom: 2px solid #8bffe8;
     }
+    15% {
+        border-top: 2px solid #509eb6;
+        border-bottom: 2px solid #509eb6;
+    }
+    20% {
+        border-top: 2px solid #2b6eac;
+        border-bottom: 2px solid #2b6eac;
+    }
+    25% {
+        border-top: 2px solid #116d14;
+        border-bottom: 2px solid #116d14;
+    }
+    30% {
+        border-top: 2px solid #43c43d;
+        border-bottom: 2px solid #43c43d;
+    }
+    40% {
+        border-top: 2px solid #44ff4a;
+        border-bottom: 2px solid #44ff4a;
+    }
+    55% {
+        border-top: 2px solid #8bffe8;
+        border-bottom: 2px solid #8bffe8;
+    }
+    70% {
+        border-top: 2px solid #509eb6;
+        border-bottom: 2px solid #509eb6;
+    }
+    80% {
+        border-top: 2px solid #2b6eac;
+        border-bottom: 2px solid #2b6eac;
+    }
+    85% {
+        border-top: 2px solid #116d14;
+        border-bottom: 2px solid #116d14;
+    }
+    90% {
+        border-top: 2px solid #43c43d;
+        border-bottom: 2px solid #43c43d;
+    }
+    100% {
+        border-top: 2px solid #44ff4a;
+        border-bottom: 2px solid #44ff4a;
+    }
+}
 
     .nombrePagina > h1 {
         margin: 1.5rem;

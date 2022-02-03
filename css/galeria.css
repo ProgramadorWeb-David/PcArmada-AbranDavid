@@ -35,19 +35,19 @@
     -moz-border-radius: 1.5rem;
     -ms-border-radius: 1.5rem;
     -o-border-radius: 1.5rem;
-    opacity: .6;
+    opacity: .4;
 }
 
 
 .galeria__fotos img:hover {
-    box-shadow: .1rem .4rem .6rem .4rem var(--celesteClaro);
+    box-shadow: .1rem .4rem .7rem .4rem #4b4a67;
     opacity: 1;
     cursor: pointer;
-    transform: scale(1.1) rotate(2deg);
-    -webkit-transform: scale(1.1) rotate(2deg);
-    -moz-transform: scale(1.1) rotate(2deg);
-    -ms-transform: scale(1.1) rotate(2deg);
-    -o-transform: scale(1.1) rotate(2deg);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
 }
 
 
