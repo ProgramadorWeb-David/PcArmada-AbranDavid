@@ -1,0 +1,44 @@
+
+
+/* ---- Globales ---- */
+html {
+    box-sizing: border-box; /* para que tome padding margin todo en el ancho */
+    font-size: 62.5%;  /* esto hace q ahora 1rem = 10px */
+
+    body {
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.6rem;
+
+        img {
+            max-width: 100%;
+            display: block;
+            }
+            
+            h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+            color: var(--negro);
+            }
+            
+            h1 {
+            font-size: 4rem;
+            }
+            
+            h2 {
+            font-size: 3rem;
+            }
+            
+            h3 {
+            font-size: 2rem;
+            }
+            
+            .contenedor {
+                max-width: 120rem;
+                margin: 0 auto;
+            }
+        }
+}
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+

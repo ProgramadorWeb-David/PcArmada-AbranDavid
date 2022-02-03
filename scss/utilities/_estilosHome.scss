@@ -1,0 +1,61 @@
+
+
+
+
+    /* Estilos del carousel */
+    .mt-carousel {
+        margin-top: 5.8rem;
+    }
+
+
+    /* Estilos de las marcas */
+    .titulo-marcas {
+        color: var(--primario);
+        font-family: 'Be Vietnam Pro', sans-serif;
+        font-weight: bold;
+        font-size: 3rem;
+        letter-spacing: 3px;
+        margin-top: 1rem;
+        text-shadow: 0px 2px 1px #333;
+    }
+
+
+    /* Estilos de Armar Pc */
+    .p-armaPC {
+        padding: 4rem;
+        background-image: linear-gradient(to bottom, #fafafa 0%, #e4e4e4 100%);
+    }
+
+    .titulo-negrita {
+        font-size: 5rem;
+    }
+
+    .sombra-box {
+        &:hover {
+            box-shadow: 6px 5px 12px rgba(17, 29, 48, .26);
+            border: 1px solid #86DE74;
+        }
+    }
+    
+
+        /* Estilos de porque elegirnos */
+        .box-skills {
+            margin: 10px 60px 0 0;
+
+            h4 {
+                font-family: 'Yatra One', cursive;
+                font-size: 2rem;
+                letter-spacing: 1px;
+                line-height: 2;
+                font-weight: 700;
+                color: var(--grisOscuro3);
+
+                i {
+                    color: #0ec46f;
+                    font-size: 20px;
+                }
+            }
+        }
+        
+        
+        

@@ -1,40 +1,10 @@
 
 
-/* Menu Principal */
-@import './utilities/menu';
-
-/* Equipos */
-@import './equipos/equipos.scss';
-
+/* Generales */
+@use 'utilities';
 
 /* Media Queries */
+@use 'media-queries';
 
-/* 1400 */
-@import './media-queries/mq1400';
-
-/* 1110 */
-@import './media-queries/mq1110';
-
-/* 974 */
-@import './media-queries/mq974';
-
-/* 960 */
-@import './media-queries/mq960';
-
-/* 850 */
-@import './media-queries/mq850';
-
-/* 796 */
-@import './media-queries/mq796';
-
-/* 704 */
-@import './media-queries/mq704';
-
-/* 642 */
-@import './media-queries/mq642';
-
-/* 480 */
-@import './media-queries/mq480';
-
-/* 396 */
-@import './media-queries/mq396';
+/* Equipos */
+// @import './equipos/equipos.scss';
