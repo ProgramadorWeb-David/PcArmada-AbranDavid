@@ -19,6 +19,15 @@
         text-shadow: 0px 2px 1px #333;
     }
 
+    .img-marcas {
+        &:hover {
+            animation: blink 8s infinite linear;
+            -webkit-animation: blink 8s infinite linear;
+        }
+
+        padding: .8rem;
+    }
+
 
     /* Estilos de Armar Pc */
     .p-armaPC {
